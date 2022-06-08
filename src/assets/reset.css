@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --notify-color: #e6c0a2;
+  --create-btn: rgb(105, 210, 231);
+  --auth-btn: rgb(243, 134, 48);
+  --btn-text-color: white;
+  --list-color: rgb(55, 65, 81);
+  --bg-color: rgba(0, 0, 0, 0);
+}

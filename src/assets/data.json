@@ -1,0 +1,32 @@
+[
+      {
+        "id": 3,
+        "title": "Raghav Sethi",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/testimonials/WhatsApp_Image_2022-03-15_at_5.36.20_PM.jpeg",
+        "text": "I had a few properties in Mumbai that I wanted to put up on rent which was becoming extremely difficult for me as I had moved to the States. Then I came across Flat and Flatmates where I could directly meet the tenant and discuss their needs and align those with mine. It has been a hassle free experience and I have rented out most of my places. Cheers!",
+        "is_active": true,
+        "created_at": "2021-10-25T20:21:32.956455+05:30",
+        "modified_at": "2022-03-17T13:15:17.192111+05:30"
+      },
+      {
+        "id": 2,
+        "title": "Ravneet Kukreja",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/testimonials/WhatsApp_Image_2022-03-15_at_5.45.29_PM.jpeg",
+        "text": "Being a girl my biggest concern was a safe and secure locality. I wanted to avoid brokers at all cost because they levy hefty charges and don't provide correct information. I met my landlady on Flat and Flatmates and I felt so secure that I could discuss every concern with her. I am glad I landed up here which saved my time, money and energy",
+        "is_active": true,
+        "created_at": "2021-10-25T20:20:59.592181+05:30",
+        "modified_at": "2022-03-17T13:15:31.295843+05:30"
+      },
+      {
+        "id": 1,
+        "title": "Samiksha Pandit",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/testimonials/WhatsApp_Image_2022-03-15_at_7.01.42_PM.jpeg",
+        "text": "I am so so so fortunate to have found my flatmate through Flat and Flatmates. My flatmate is the perfect roomie for me. I was new to Mumbai and needed a like minded person to share my flat and expenses with. Flat and flatmates proved to be my guardian angel where I met my roomie who has now become a part of my family.",
+        "is_active": true,
+        "created_at": "2021-10-25T20:20:45.008972+05:30",
+        "modified_at": "2022-03-17T13:15:38.709384+05:30"
+      }
+    ]
+
+
+  
