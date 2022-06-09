@@ -1,0 +1,36 @@
+@import url("../../assets/reset.css");
+
+.navbar-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 2px;
+}
+
+.navbar-list li {
+  list-style: none;
+  font-size: 1.6rem;
+  width: 12rem;
+  color: var(--list-color);
+}
+
+.navbar-list {
+  display: flex;
+  margin-left: 15rem;
+}
+
+.navbar-logo {
+  width: 15rem;
+  margin-left: 5rem;
+}
+
+.create-btn {
+  background-color: var(--create-btn);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.auth-btn {
+  background-color: var(--auth-btn);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
