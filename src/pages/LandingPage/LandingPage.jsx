@@ -5,7 +5,7 @@ import { MainSection } from "../../components/MainSection/MainSection";
 export function LandingPage() {
     return (
         <div>
-           <Notification />
+            <Notification />
             <Header /> 
             <MainSection />
         </div>

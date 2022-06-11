@@ -4,7 +4,8 @@ import "./Filter.css";
 export function Filter(){
     return (
         <div className="filter-container">
-                <div>
+            <div className="filter-container-wrapper">
+                <div className="filter-wrapper">
                     <div className="filter-wrapper-upper">
                     
                         <button className="choose-btn">Full House</button>
@@ -63,9 +64,9 @@ export function Filter(){
                 
             
               
-        
+            </div>
         
                 
-            </div>
+        </div>
     )
 }
