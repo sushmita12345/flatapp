@@ -150,18 +150,16 @@
   padding: 3rem;
   border-radius: 8px;
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  /* justify-content: space-between; */
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  /* gap: 2rem; */
-  /* border: 1px solid black; */
+  /* flex-wrap: wrap; */
 }
 
 .city-list-count {
   display: flex;
   width: 25%;
-  justify-content: flex-start;
-  align-items: center;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
   border-right: 1px solid var(--list-color);
   padding: 2rem;
   display: flex;
@@ -169,6 +167,7 @@
   align-items: center;
   background-color: transparent;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .city-list-count-addon {
@@ -186,6 +185,8 @@
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2rem;
 }
 
 .flat-wrapper-lower {
@@ -286,9 +287,3 @@
   font-size: 1.2rem;
   color: grey;
 }
-
-/* .flat-main-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
