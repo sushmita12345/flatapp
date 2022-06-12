@@ -5,6 +5,7 @@ import { Cateogry } from "../../components/CategorySection/Category";
 import { ImageSection } from "../../components/ImageSection/ImageSection";
 import { TopLocalities } from "../../components/TopLocalities/TopLocalities";
 import { ChooseUs } from "../../components/ChooseUs/Choose";
+import { Testimonials } from "../../components/Testimonials/Testimonials";
 
 export function LandingPage() {
     return (
@@ -16,6 +17,7 @@ export function LandingPage() {
             <ImageSection />
             <TopLocalities />
             <ChooseUs />
+            <Testimonials />
         </div>
     )
 }

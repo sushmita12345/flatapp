@@ -1,0 +1,49 @@
+@import url("../../assets/reset.css");
+
+.testimonial-container {
+  padding: 12rem;
+  background-color: rgb(250, 247, 245);
+}
+
+.testimonial-wrapper-content {
+  font-size: 5rem;
+  color: var(--list-color);
+}
+
+.testimonial-card-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-card-wrapper {
+  width: 36rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.testimonial-card-para-container {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: var(--list-color);
+}
+
+.testimonial-card-profile {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.testimonial-card-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card-name {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
