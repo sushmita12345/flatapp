@@ -18,6 +18,8 @@
   display: flex;
   margin-top: 5rem;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3rem;
 }
 
 .choose-us-card-wrapper {
