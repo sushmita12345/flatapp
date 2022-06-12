@@ -3,6 +3,8 @@ import {Header} from "../../components/Header/Header";
 import { MainSection } from "../../components/MainSection/MainSection";
 import { Cateogry } from "../../components/CategorySection/Category";
 import { ImageSection } from "../../components/ImageSection/ImageSection";
+import { TopLocalities } from "../../components/TopLocalities/TopLocalities";
+import { ChooseUs } from "../../components/ChooseUs/Choose";
 
 export function LandingPage() {
     return (
@@ -12,6 +14,8 @@ export function LandingPage() {
             <MainSection />
             <Cateogry />
             <ImageSection />
+            <TopLocalities />
+            <ChooseUs />
         </div>
     )
 }
