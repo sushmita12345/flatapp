@@ -60,3 +60,10 @@ export function MdiBed(props) {
     <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M19 7h-8v7H3V5H1v15h2v-3h18v3h2v-9a4 4 0 0 0-4-4M7 13a3 3 0 0 0 3-3a3 3 0 0 0-3-3a3 3 0 0 0-3 3a3 3 0 0 0 3 3Z"></path></svg>
   )
 }
+
+
+export function MdiArrowRight(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11H4Z"></path></svg>
+  )
+}

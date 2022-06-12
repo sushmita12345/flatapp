@@ -1,3 +1,5 @@
+import "./Card.css";
+
 import {MdiHeart,
     MdiCurrencyRupee,
     MdiVectorSquare,

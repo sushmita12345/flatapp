@@ -1,0 +1,51 @@
+@import url("../../assets/reset.css");
+
+.category-container {
+}
+
+.category-wrapper {
+  padding: 8rem 12rem 8rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.category-card-wrapper {
+  display: flex;
+  width: 33rem;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.category-image-wrapper {
+  height: 10rem;
+  width: 14rem;
+  margin-bottom: 1rem;
+}
+
+.category-image-rent {
+  font-size: 1.7rem;
+  font-weight: 700;
+
+  color: var(--list-color);
+}
+
+.category-description-container {
+  font-size: 1.3rem;
+}
+
+.category-description {
+  margin-left: 1rem;
+  text-align: start;
+}
+
+.category-description-arrow-icon {
+  font-size: 5rem;
+  color: grey;
+  display: flex;
+  margin-top: 3rem;
+}

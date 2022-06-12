@@ -1,0 +1,57 @@
+@import url("../../assets/reset.css");
+
+.image-section-container {
+  background-color: var(--sky-blue);
+}
+
+.image-section-wrapper {
+  padding: 5rem 10rem 4rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-section-a {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-section-heading {
+  text-align: start;
+  color: white;
+  font-size: 4.5rem;
+}
+
+.image-section-para {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--list-color);
+  display: flex;
+  text-align: start;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+
+.image-section-span {
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.image-section-button {
+  width: fit-content;
+  margin-top: 6rem;
+  padding: 1.6rem 5rem 1.6rem 5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: var(--sky-blue);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.image-section-main-img {
+  height: 40rem;
+  width: 52rem;
+}

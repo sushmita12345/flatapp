@@ -1,7 +1,7 @@
 @import url("../../assets/reset.css");
 
 .header-cover-img {
-  /* width: 100vw; */
+  width: 100vw;
   height: 65vh;
 }
 
