@@ -1,4 +1,5 @@
 import "./Testimonials.css";
+import TestimonialData from "../../assets/Testimonial.json";
 
 export function Testimonials() {
   return (
@@ -7,7 +8,31 @@ export function Testimonials() {
         <div className="testimonial-sub-wrapper">
           <div className="testimonial-wrapper-content">Testimonials</div>
           <div className="testimonial-card-container">
-            <div className="testimonial-card-wrapper">
+            {
+              TestimonialData.map((data) => (
+                <div className="testimonial-card-wrapper">
+                    <div className="testimonial-card-sub-container">
+                        <img
+                        className="testimonial-card-icon-container"
+                        src="https://www.flatandflatmates.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fquote.a27331a9.png&w=128&q=75"
+                        alt="icon"
+                        />
+                        <p className="testimonial-card-para-container">
+                        {data.text}
+                        </p>
+                        <div className="testimonial-card-img-container">
+                        <img
+                            className="testimonial-card-profile"
+                            src={data.image}
+                            alt="profile"
+                        />
+                        <span className="testimonial-card-name">{data.title}</span>
+                        </div>
+                    </div>
+                </div>
+              ))
+            }
+            {/* <div className="testimonial-card-wrapper">
               <div className="testimonial-card-sub-container">
                 <img
                   className="testimonial-card-icon-container"
@@ -74,7 +99,7 @@ export function Testimonials() {
                   <span className="testimonial-card-name">Samiksha Pandit</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

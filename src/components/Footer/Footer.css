@@ -1,0 +1,81 @@
+@import url("../../assets/reset.css");
+
+.footer-main-container {
+  background-color: var(--footer-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-main-wrapper {
+  padding: 0 16rem 3rem 16rem;
+  display: flex;
+}
+
+.footer-main-sub-wrapper {
+  display: flex;
+}
+
+.footer-main-img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.footer-main-social-container {
+  margin-left: 3rem;
+}
+
+.footer-main-social-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--off-white);
+}
+
+.footer-main-social-copy {
+  display: flex;
+  font-size: 1.2rem;
+  color: var(--off-white);
+}
+
+.footer-main-social-wrapper {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.footer-main-social-img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2.2rem;
+}
+
+.footer-main-about-container {
+  display: flex;
+  margin-left: 10rem;
+}
+
+.footer-main-about-head {
+  font-size: 2.5rem;
+  color: var(--off-white);
+}
+
+.footer-main-about-list {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--off-white);
+}
+
+.footer-main-about-ul {
+  text-align: start;
+  line-height: 3.5rem;
+}
+
+.footer-lower-container {
+  background-color: var(--footer-bg-color);
+  padding-bottom: 3rem;
+}
+
+.footer-lower-text {
+  font-size: 1.8rem;
+  color: var(--off-white);
+  margin-right: 6rem;
+}

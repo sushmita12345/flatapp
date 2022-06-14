@@ -1,4 +1,5 @@
 import "./TopLocalities.css";
+import Cities from "../../assets/Cities.json";
 
 export function TopLocalities(){
     return (
@@ -7,15 +8,11 @@ export function TopLocalities(){
                 <div className="top-locality-sub-wrapper">
                     <div className="top-locality-description">Top Localities</div>
                     <div className="top-locality-chip-wrapper">
-                        <button className="top-locality-btn">Delhi</button>
-                        <button className="top-locality-btn">Gurugram</button>
-                        <button className="top-locality-btn">Noida</button>
-                        <button className="top-locality-btn">Kolkata</button>
-                        <button className="top-locality-btn">Mumbai</button>
-                        <button className="top-locality-btn">Pune</button>
-                        <button className="top-locality-btn">Hyderabad</button>
-                        <button className="top-locality-btn">Banglore</button>
-                        <button className="top-locality-btn">Chennai</button>
+                        {
+                            Cities.map((city) => (
+                                <button className="top-locality-btn">{city}</button>
+                            ))
+                        }
                     </div>
                     <div className="top-locality-list-container">
                         <div className="top-locality-list-wrapper">

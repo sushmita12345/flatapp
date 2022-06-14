@@ -6,7 +6,8 @@ import {
   
   
 } from "../../assets/icon";
-import {Card} from "../Card/Card"
+import {Card} from "../Card/Card";
+import DataList from "../../assets/dataSectionOne.json";
 
 export function MainSection() {
   return (
@@ -14,80 +15,19 @@ export function MainSection() {
       <div className="main-section-wrapper">
         <div className="city-image-container">
           <div className="city-image-wrapper">
-            <div className="single-image-container">
+          {
+            DataList.map((item) => (
+              <div className="single-image-container">
               <img
                 className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
+                src={item.image}
                 alt="place"
               />
 
-              <span className="city-name">Delhi</span>
+              <span className="city-name">{item.name}</span>
             </div>
-
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Gurugram</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Noida</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Kolkata</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Mumbai</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Pune</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Hyderabad</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Banglore</span>
-            </div>
-            <div className="single-image-container">
-              <img
-                className="city-single-image"
-                src="https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/city_description/delhi_1.png"
-                alt="place"
-              />
-              <span className="city-name">Chennai</span>
-            </div>
+            ))
+          }
           </div>
         </div>
         <div className="city-description-container">
