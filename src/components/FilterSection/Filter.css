@@ -1,0 +1,128 @@
+@import url("../../assets/reset.css");
+
+.filter-container {
+  position: absolute;
+  bottom: 0rem;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 16rem;
+}
+
+.filter-container-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-wrapper-upper {
+  display: flex;
+  height: 8rem;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.filter-wrapper-upper .choose-btn {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  height: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: var(--list-color);
+}
+
+.filter-select-container,
+.filter-select-container-lower,
+.input-search-btn {
+  background-color: transparent;
+  font-size: 2rem;
+  border: none;
+  height: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: var(--list-color);
+}
+
+.filter-wrapper-upper .choose-btn:hover {
+  background-color: var(--auth-btn);
+  color: var(--btn-text-color);
+}
+
+.filter-select {
+  height: 4rem;
+  border-radius: 5px;
+  padding: 0 8px 0 8px;
+}
+
+.lower {
+  border-radius: 0 0 1rem 1rem;
+  border-top: 0.5px solid var(--list-color);
+}
+
+.filter-input {
+  border: none;
+  height: 5.5rem;
+  width: 40rem;
+  font-size: 2rem;
+}
+
+.filter-input-container {
+  flex: 1;
+}
+
+.filter-select-container-lower {
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  border-right: 0.5px solid var(--list-color);
+}
+
+.filter-select-lower {
+  height: 4rem;
+  width: 18rem;
+  border: none;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  border-radius: 5px 5px 5px 1.2rem;
+}
+
+.filter-wrapper-upper .input-search-btn {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-left: 0.5px solid var(--list-color);
+  background-color: var(--auth-btn);
+  color: var(--btn-text-color);
+  font-weight: 900;
+  font-size: 2.5rem;
+  border-radius: 0 0 1rem 0;
+}
+
+.filter-input-container {
+  position: relative;
+}
+
+.filter-search-icon {
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 820px) {
+  /* .filter-container {
+    position: absolute;
+    bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+  } */
+}

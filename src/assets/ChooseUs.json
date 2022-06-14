@@ -1,0 +1,38 @@
+ [
+    {
+        "id": 1,
+        "title": "Verified properties",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/why_choose_us/Verified.png",
+        "description": "Our team is dedicated towards helping you find the perfect place for yourself. We make sure that whatever listings you see on the website are 100% genuine and are in good and healthy condition",
+        "is_active": true,
+        "created_at": "2022-03-16T18:13:21.879526+05:30",
+        "modified_at": "2022-03-24T14:14:08.977122+05:30"
+    },
+    {
+        "id": 2,
+        "title": "Free listing",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/why_choose_us/Free.png",
+        "description": "In Addition to a marketplace, we also give a section of “create your own listings” where you can upload your own properties, room etc. for rent, connect with the buyer online without any risks",
+        "is_active": true,
+        "created_at": "2022-03-16T18:13:59.987647+05:30",
+        "modified_at": "2022-03-24T14:13:56.915006+05:30"
+    },
+    {
+        "id": 3,
+        "title": "Advanced filters",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/why_choose_us/Filters.png",
+        "description": "We want you to have the flat of your dreams. Therefore, we work towards providing you a place within your budget, in your preferable location, which has your taste and choice of interiors",
+        "is_active": true,
+        "created_at": "2022-03-16T18:14:26.006564+05:30",
+        "modified_at": "2022-03-24T14:13:43.077767+05:30"
+    },
+    {
+        "id": 4,
+        "title": "No brokerage",
+        "image": "https://flats-and-flatmates-bucket.s3.amazonaws.com/home_page/images/why_choose_us/No_Brokarage.png",
+        "description": "We directly connect you with the verified owner of the property who himself will address your queries. No middleman fee that will fall on your pocket",
+        "is_active": true,
+        "created_at": "2022-03-16T18:15:10.495292+05:30",
+        "modified_at": "2022-03-24T14:13:31.548193+05:30"
+    }
+]

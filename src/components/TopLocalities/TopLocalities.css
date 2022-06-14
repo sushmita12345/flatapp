@@ -1,0 +1,63 @@
+@import url("../../assets/reset.css");
+
+.top-locality-container {
+  padding: 5rem 15rem 5rem 15rem;
+  background-color: var(--locality-bg-color);
+}
+
+.top-locality-wrapper {
+  display: flex;
+}
+
+.top-locality-description {
+  text-align: start;
+  font-size: 4rem;
+  color: var(--list-color);
+}
+
+.top-locality-chip-wrapper {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.top-locality-btn {
+  width: 21rem;
+  border: none;
+  padding: 1.2rem 7rem 1.2rem 7rem;
+  background-color: white;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.top-locality-list-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.top-locality-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+}
+
+.top-locality-list-btn {
+  width: 100%;
+  height: 6rem;
+  text-align: start;
+  padding-left: 2rem;
+  border: 0.1px solid #f0f0f0;
+  background-color: white;
+  font-size: 1.6rem;
+  color: var(--list-color);
+}
+
+.top-locality-list-btn:hover {
+  background-color: var(--auth-btn);
+  color: white;
+}

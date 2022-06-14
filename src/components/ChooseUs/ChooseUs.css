@@ -1,0 +1,56 @@
+@import url("../../assets/reset.css");
+
+.choose-us-container {
+  padding: 5rem 15rem 0rem 15rem;
+  background-color: rgb(250, 247, 245);
+}
+
+.choose-us-wrapper {
+  width: 100%;
+}
+
+.choose-us-content {
+  font-size: 5rem;
+  color: var(--sky-blue);
+}
+
+.choose-us-card-container {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+.choose-us-card-wrapper {
+  width: 25rem;
+  background-color: var(--sky-blue);
+  border-radius: 8px;
+}
+
+.choose-us-image-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.choose-us-card-heading {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.choose-us-card-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 6rem 0rem 6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.6rem;
+}

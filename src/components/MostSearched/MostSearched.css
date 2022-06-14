@@ -1,0 +1,31 @@
+@import url("../../assets/reset.css");
+
+.flat-footer-main-container {
+  padding: 8rem;
+  background-color: var(--footer-bg-color);
+  display: flex;
+}
+
+.flat-footer-desc-container {
+  text-align: justify;
+}
+
+.flat-footer-heading {
+  display: flex;
+  font-size: 3rem;
+  color: var(--off-white);
+  margin-bottom: 4rem;
+}
+
+.flat-footer-text {
+  font-size: 2.2rem;
+  color: var(--auth-btn);
+  font-weight: 400;
+}
+
+.footer-flat-para {
+  display: inline-block !important;
+  color: var(--off-white);
+  padding: 0 6px;
+  font-size: 1.2rem;
+}
